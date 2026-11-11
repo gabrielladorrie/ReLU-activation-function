@@ -41,7 +41,7 @@ The ReLU function works as follows:
 - **Positive input:** The output is equal to the input.
 - **Zero input:** The output is 0.
 
-For example:
+### Example Outputs
 
 | Input (x) | ReLU Output |
 |---:|---:|
@@ -90,14 +90,12 @@ It demonstrates the interactive input slider, ReLU graph, selected input indicat
 The GitHub repository is organised as follows:
 
 ```text
-ReLU-Activation-Function/
+ReLU-activation-function/
 │
 ├── relu_app.py
 ├── requirements.txt
 ├── README.md
-│
-└── images/
-    └── relu_app.png
+└── relu_app.png
 ```
 
 | File | Description |
@@ -105,7 +103,9 @@ ReLU-Activation-Function/
 | `relu_app.py` | Main Python script containing the ReLU function and Streamlit application |
 | `requirements.txt` | Contains the required Python libraries |
 | `README.md` | Project documentation and instructions |
-| `images/relu_app.png` | Screenshot of the ReLU application |
+| `relu_app.png` | Screenshot of the ReLU application |
+
+The application is organised in its own Python file, separate from the Sigmoid and Tanh applications. This independent structure makes the application easier to understand, maintain, execute, and update.
 
 ## 8. Installation and Setup
 
@@ -114,13 +114,13 @@ Follow the instructions below to run the application locally.
 ### Step 1: Clone the GitHub Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/gabrielladorrie/ReLU-activation-function.git
 ```
 
 ### Step 2: Navigate to the Project Folder
 
 ```bash
-cd ReLU-Activation-Function
+cd ReLU-activation-function
 ```
 
 ### Step 3: Install Required Libraries
@@ -147,10 +147,31 @@ numpy
 matplotlib
 ```
 
-These dependencies are listed in the `requirements.txt` file to make installation easier.
+These dependencies are listed in the `requirements.txt` file to make installation easier and ensure the application can be reproduced in another environment.
 
+## 10. Deployment
 
-## 10. Learning Outcomes
+The application is deployed using **Streamlit Community Cloud**, allowing users to access the application through a web browser without installing Python locally.
+
+### Deployment Steps
+
+1. Upload the project files to the GitHub repository.
+2. Visit [Streamlit Community Cloud](https://share.streamlit.io/).
+3. Connect your GitHub account.
+4. Select the ReLU Activation Function repository.
+5. Set `relu_app.py` as the main application file.
+6. Click Deploy.
+7. Test the deployed application to ensure the slider, graph, and output display work correctly.
+
+**Live Streamlit Application:**
+
+https://relu-activation-function-nzgrg9jjpfsmhapprupbjop.streamlit.app/
+
+**GitHub Repository:**
+
+https://github.com/gabrielladorrie/ReLU-activation-function
+
+## 11. Learning Outcomes
 
 Through this project, users can understand:
 
@@ -160,9 +181,14 @@ Through this project, users can understand:
 - How activation functions are used in artificial neural networks.
 - How Python libraries such as Streamlit, NumPy, and Matplotlib can be combined to create interactive visualisations.
 
-## 11. Conclusion
+## 12. Conclusion
 
 The ReLU Activation Function application successfully demonstrates how the ReLU function transforms input values into outputs through an interactive visualisation.
 
 By using Streamlit, users can adjust input values and observe the corresponding changes in the graph and output immediately. This application provides a simple and interactive way to understand the behaviour of the ReLU activation function in neural networks.
 
+## 13. GitHub Repository Topics
+
+Suggested repository topics:
+
+`python` `streamlit` `relu` `activation-function` `neural-networks` `deep-learning` `machine-learning` `data-visualisation`
