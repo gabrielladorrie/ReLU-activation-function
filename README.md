@@ -81,7 +81,7 @@ The following screenshot shows the developed ReLU Activation Function applicatio
 
 It demonstrates the interactive input slider, ReLU graph, selected input indicator, and calculated output.
 
-![ReLU Activation Function Application](images/relu_app.png)
+(https://github.com/gabrielladorrie/ReLU-activation-function/blob/main/relu_app.png)
 
 **Figure 1: ReLU Activation Function Web Application**
 
